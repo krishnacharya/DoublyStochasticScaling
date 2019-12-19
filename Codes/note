@@ -1,0 +1,5 @@
+The iteration continues until the residual is smaller than TOL.
+The residual is measured by norm(diag(x)*A*x - e,2).
+outer iteration measured by i
+the inner iteration does some magic-> line search, cones. parameters used here (eta_max, gamma, delta, bigdelta)
+We count matrix vector products
